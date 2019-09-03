@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* main */
+*,*:before , *:after {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Muli', sans-serif;
+}
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.logo {
+	font-size: 30px;
+	font-weight: 600;
+	color:#ffffff;
+	line-height: 40px;
+}
+.nav-right {
+	line-height: 40px;
+	font-size: 16px;
+	word-spacing: 16px;
+
+
+}
+.nav-right a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(28, 218, 28);
+}
+.head0 {
+	background-color: #a4508b;
+	background-image: linear-gradient(45deg, #a4508b 0%, #5f0a87 74%);
+
+}
+.container2,.container3 {
+	display: flex;
+	justify-content: space-between;	
+}
+.container2 {
+	padding: 85px 0px;
+}
+.container3 {
+	padding: 50px 0px;
+}
+.head {
+	flex-basis:50%;
+	padding: 100px 0px;
+}
+.head2 {
+	padding:20px 0px;
+}
+.para {
+	flex-basis:50%;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	font-size:20px;
+	padding: 100px 0px 0px 40px;
+}
+.para2 {
+	border-left: 1px solid rgba(0,0,0,0.5);
+	padding:20px 40px;
+}
+.head01 {
+	font-size: 40px;
+	padding-right: 40px;
+	color:white;
+	font-weight: 700;
+}
+.para01  {
+	font-size: 24px;
+	line-height: 1.2;
+	padding: 10px 0px;
+}
+.color {
+	color:rgba(255,255,255,0.5);
+}
+.color2 {
+	color:rgba(0,0,0,0.5);
+}
+.font {
+	font-size: 20px;
+}
+.shadow {
+	box-shadow: 1px 1px 2px gray;
+	
+}
+.button {
+	padding:15px 30px;
+	background-color:  rgb(28, 218, 28);
+	margin:20px 0px;
+	border-radius: 24px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color:white;
+	border:none;
+}
+.button2 {
+	background-color: white;
+	border:1px solid rgba(0,0,0,0.3);
+	color:rgba(0,0,0,0.5);
+}
+.head02 {
+	font-size: 34px;
+	margin-bottom: 25px;
+	color:rgba(0,0,0,0.8);
+}
+.para02 {
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.right {
+	flex-basis:15px;
+	height: 15px;
+}
+.section3,footer {
+	background-color: rgba(0,0,0,0.1);
+	padding:70px 0px ;
+}
+.container4 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+	background: white;
+
+}
+.sec3-img {
+	width: 37%;
+	background: white;
+	font-size: 0;
+}
+.img {
+	padding-bottom: 0px;
+
+}
+.head3 {
+	flex-basis:63%;
+	background-color: white;
+
+}
+
+.head03 {
+	font-size: 30px;
+	padding:40px 0px 0px 0px;
+
+}
+.para03 {
+	margin:30px 20px 0px 0px;
+	line-height: 1.5;
+}
+.section4 {
+	text-align: center;
+}
+.section4 .button {
+	background-color: rgba(0,0,0,0.1);
+}
+.container5 {
+	display: flex;
+	padding: 80px 0px ;
+}
+.head4 {
+	width: 50%;
+	padding:30px 20px;
+	font-size: 34px;
+}
+.para04 {
+	line-height: 1.8;
+	margin: 30px 0px;
+}
+.social {
+	width: 50%;
+	padding:30px 20px;
+	border-left: 1px solid rgba(0,0,0,0.3);
+}
+.name,.email {
+	padding:15px 140px 15px 10px;
+	margin:30px 0px;
+	text-align: left;
+}
+.message {
+	padding:10px 430px 150px 10px;
+	text-align: left;
+	margin: 10px 0px 30px 0px ;
+}
+.social a {
+	line-height: 2.5;
+	text-decoration:none;
+	color:;
+}
+i {
+	color: rgb(28, 218, 28);
+	margin: 0px 20px 0px 20px;
+}
+.nashville {
+	padding-left: 45px;
+}
+footer {
+	text-align: center;
+}
